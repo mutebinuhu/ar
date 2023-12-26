@@ -5,6 +5,7 @@ import Header from './components/Header'
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import HighLights from './components/HighLights';
+import HospitalSummary from './components/HospitalSummary';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <NavBar/>
       <Banner/>
       <HighLights/>
+      <HospitalSummary/>
     </main>
   )
 }
