@@ -4,6 +4,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import Header from './components/Header'
 import NavBar from './components/NavBar';
 import Banner from './components/Banner';
+import HighLights from './components/HighLights';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Header/>
       <NavBar/>
       <Banner/>
+      <HighLights/>
     </main>
   )
 }
