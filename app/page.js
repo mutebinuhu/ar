@@ -6,6 +6,8 @@ import NavBar from './components/NavBar';
 import Banner from './components/Banner';
 import HighLights from './components/HighLights';
 import HospitalSummary from './components/HospitalSummary';
+import Departments from './components/Departments';
+import BookWithDoctor from './components/BookWithDoctor';
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Banner/>
       <HighLights/>
       <HospitalSummary/>
+      <Departments/>
+      <BookWithDoctor/>
     </main>
   )
 }
