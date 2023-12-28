@@ -26,7 +26,7 @@ const Header = () => {
         <div class="">
           <ul className="flex">
             <li>
-              <select name="userLang" id="userLang" className="border rounded-sm border-gray-500">
+              <select name="userLang" id="userLang" className="border rounded-sm text-xs text-gray-500 border-gray-500">
                 <option value="arabic">Arabic</option>
                 <option value="bangla">Bangla</option>
                 <option value="english" selected="selected">
