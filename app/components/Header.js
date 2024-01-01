@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="border-b border-gray-100 p-3">
+    <header className="border-b-2 border-gray-100 p-3">
       <div className="flex justify-between">
         <div className="">
           <div class="">
