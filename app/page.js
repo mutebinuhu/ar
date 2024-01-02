@@ -9,6 +9,7 @@ import HospitalSummary from './components/HospitalSummary';
 import Departments from './components/Departments';
 import BookWithDoctor from './components/BookWithDoctor';
 import Footer from './components/Footer';
+import BookingOne from './components/BookingOne';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Header/>
       <NavBar/>
       <Banner/>
+      <BookingOne/>
       <HighLights/>
       <HospitalSummary/>
       <Departments/>

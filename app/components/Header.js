@@ -16,7 +16,7 @@ const Header = () => {
           <div className="text-sm">
           <li  className="fas fa-mobile fa-2x"></li>
           </div>
-            <div className="text-xs">
+            <div className="text-xs rounded-lg px-2">
             +44 (0) 2380011767
             </div>
           </div>
