@@ -18,6 +18,7 @@ export default function Home() {
       <NavBar/>
       <Banner/>
       <BookingOne/>
+      
       <HighLights/>
       <HospitalSummary/>
       <Departments/>
