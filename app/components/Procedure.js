@@ -35,7 +35,7 @@ const Timeline = () => {
             className="mb-6"
           >
             <div className="flex items-center mb-2">
-              <div className={`bg-yellow-400 flex justify-center items-center rounded-full h-12 w-12 mr-3 `}><i className={`fa-solid ${item.icon}`}></i></div>
+              <div className={`bg-yellow-400 shadow-lg flex justify-center items-center rounded-full h-12 w-12 mr-3 `}><i className={`fa-solid ${item.icon}`}></i></div>
               <div className="text-gray-600 font-bold">{item.title}</div>
             </div>
             <div className="bg-white p-4 rounded-md shadow-md">
