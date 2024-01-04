@@ -16,7 +16,7 @@ const BookingOne = () => {
                             <button className='border-2 py-2 px-3 rounded border-blue-500 '>Looking for a Job ?</button>
                         </div>
                     </div>
-                    <Ad action={`Book Now`} info={`We can provide live-in care in as little as`} em={`24 hours`}/>
+                    <Ad action={`Book Now`} info={`We provide live-in care in as little as`} em={`24 hours`}/>
                
         </section>
     );

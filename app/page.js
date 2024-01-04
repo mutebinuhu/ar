@@ -10,6 +10,8 @@ import Departments from './components/Departments';
 import BookWithDoctor from './components/BookWithDoctor';
 import Footer from './components/Footer';
 import BookingOne from './components/BookingOne';
+import Services from './components/Services';
+import Procedure from './components/Procedure';
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <NavBar/>
       <Banner/>
       <BookingOne/>
+      <Procedure/>
+      <Services/>
       
       <HighLights/>
       <HospitalSummary/>
