@@ -3,15 +3,14 @@ import Image from 'next/image';
 
 const NavBar = () => {
     return (
-        <nav className='h-18'>
-                <div className='m-4'>
+        <nav className=''>
+                <div className='p-2'>
                 <div className='flex justify-between justify-center items-center'>
                 <div>
-                    <Image src="/images/logo.png"
+                    <Image src="/images/aar.jpg"
                         alt="Picture of the author"
-                        width={200}
-                        height={200}
-                        className='w-48 h-18'
+                        width={80}
+                        height={80}
                         quality={100}/>
                 </div>
                 <div className='p-2 bg-blue-500 rounded'>
