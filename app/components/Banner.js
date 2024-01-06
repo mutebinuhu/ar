@@ -6,9 +6,9 @@ import 'react-slideshow-image/dist/styles.css';
 const Banner = () => {
 
     const images = [
-        "https://care.arssolutionsltd.co.uk/assets_web/img/placeholder/slider.png",
-        "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
-        "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+        "https://img.freepik.com/free-photo/old-man-woman-sitting-yellow-sofa-with-nurse_23-2148238969.jpg?size=626&ext=jpg&ga=GA1.1.747265034.1700643698&semt=ais",
+        "https://img.freepik.com/free-photo/you-have-heartbeat-like-young-man_637285-7858.jpg?w=826&t=st=1704517661~exp=1704518261~hmac=3caad60d6e046af1b5840ae0c22302f25977d0b75fcaad50e2b4fa1cd57b6404",
+        "https://img.freepik.com/premium-photo/friendly-relationship-smiling-caregiver-uniform-happy-elderly-woman-supportive-young-nurse-looking-senior-woman_1212-2337.jpg?w=826",
     ];
 
     const buttonStyle = {
@@ -43,10 +43,9 @@ const Banner = () => {
                 <div style={{ 'backgroundImage': `url(${images[0]})` }}>
                    <div>
                    <h2 className='text-3xl font-bold'>
-                        Introducing a new information system 
+                       
                     </h2>
                     <p className='py-10'>
-                        where one is already in place and is actively used
                     </p>
                    </div>
                 </div>
@@ -54,16 +53,15 @@ const Banner = () => {
             <div className="each-slide-effect">
                 <div style={{ 'backgroundImage': `url(${images[1]})` }}>
                  
-                    <BannerHeaders title="Hospital Information System (HIS) basically  is a synonym for information management " subTitle="Hospital Information System (HIS) basically  is a synonym for information management" />
+                    <BannerHeaders title="" />
                 </div>
             </div>
             <div className="each-slide-effect">
                 <div style={{ 'backgroundImage': `url(${images[2]})` }}>
                     <div>
-                        <h2  className='text-3xl font-bold'>General Requirements– An Overview</h2>
+                        <h2  className='text-3xl font-bold'></h2>
                         <p>
-                        Generally, the
-                         system should be safe and secure from a data management point-of-view.
+                       
                         </p>
                     </div>
                 </div>

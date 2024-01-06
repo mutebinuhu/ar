@@ -6,7 +6,7 @@ const timelineItems = [
       id: 1,
       title: '1. Speak to our team',
       icon:'fa-phone-volume',
-      text: 'Call our team of experts on 0333 060 6879 to talk through your options and any questions you may have regarding your care.',
+      text: 'Call our team of experts on +447475189603 to talk through your options and any questions you may have regarding your care.',
     },
     
     {
@@ -48,7 +48,7 @@ const Timeline = () => {
   };
 const Procedure = () => {
     return (
-        <div className=''>
+        <div className='mx-2'>
             <h3 className='text-center text-bold text-3xl text-gray-700'>How to begin your care journey</h3>
             <p className='border-b-4 w-1/2 border-yellow-400 text-center ml-auto mr-auto my-2 rounded-lg'></p>
             <div className=" flex items-center justify-center">
