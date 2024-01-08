@@ -13,10 +13,10 @@ const ServicesCard = ({ title, description, image }) => {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-white text-center">
             <h2 className="text-2xl font-semibold mb-2">{title}</h2>
-            <p className="text-sm">{description}</p>
-            <div className='my-6'>
-                <Link href={"#"} className=' py-2 px-3 rounded bg-blue-500 '>Book Now</Link >
-          </div>
+            <p className="text-lg">{description}</p>
+            <motion.div className='my-20'   whileHover={{ scale: 1.05 }}>
+                <Link href={"#"} className=' py-5 px-7 rounded bg-blue-500 '>Book Now</Link >
+          </motion.div>
           </div>
           
         </div>
