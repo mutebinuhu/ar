@@ -2,6 +2,7 @@
 import React from 'react';
 import {motion} from "framer-motion"
 import Link from 'next/link';
+import BookNowButton from './BookNowButton';
 const ServicesCard = ({ title, description, image }) => {
     return (
       <motion.div
@@ -14,9 +15,12 @@ const ServicesCard = ({ title, description, image }) => {
           <div className="text-white text-2xl text-center">
             <h2 className="text-2xl font-semibold mb-2">{title}</h2>
             <p className="text-base">{description}</p>
-            <motion.div className='my-20'   whileHover={{ scale: 1.05 }}>
-                <Link href={"#"} className='text-base py-5 px-7 rounded bg-blue-500 text-lg'>Book Now</Link >
-          </motion.div>
+          
+        <Link  href={"https://google.com"}>
+         <div className='my-20'>
+            <BookNowButton/>
+         </div>
+        </Link>
           </div>
           
         </div>
